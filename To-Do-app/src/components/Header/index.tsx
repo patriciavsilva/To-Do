@@ -5,6 +5,7 @@ export default function Header() {
     <div className="bg-gray-700 h-[200px] flex justify-center w-full">
       <div className="flex mt-[72px] gap-3">
         <svg
+          className="rocket"
           width="22"
           height="36"
           viewBox="0 0 22 36"
