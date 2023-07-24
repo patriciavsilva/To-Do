@@ -1,16 +1,10 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-@import "tailwindcss/screens";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
- font-family: 'Inter', sans-serif;
- background-color: #333333;
- 
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #333333;
 }
 
 @keyframes moveRocket {
@@ -28,4 +22,3 @@ body{
 .rocket {
   animation: moveRocket 2s ease-in-out infinite;
 }
-

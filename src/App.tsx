@@ -1,12 +1,11 @@
-import TaskList from "./components/TaskList";
 import Header from "./components/Header";
-import EmptyList from "./components/EmptyList";
+import TaskList from "./components/TaskList";
 
 function App() {
   return (
     <div>
       <Header />
-      <TaskList />
+      <TaskList list={[]} />
     </div>
   );
 }
